@@ -1,0 +1,31 @@
+.main-showcase {
+  text-align: center;
+  padding: 1px;
+  background: url(../../img/main-bgg.jpg) no-repeat center;
+  background-size: cover;
+  .get-in-touch {
+    margin: 200px auto;
+    background-color: rgba(255, 255, 255, 0.61);
+    padding: 20px;
+    width: 40%;
+    color: #c51313;
+    h1 {
+      font-size: 33px;
+      margin-bottom: 10px;
+    }
+  }
+}
+@media (max-width: 900px) {
+  .main-showcase {
+    .get-in-touch {
+      width: 70%;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .main-showcase {
+    .get-in-touch {
+      width: 90%;
+    }
+  }
+}

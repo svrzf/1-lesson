@@ -1,0 +1,56 @@
+.support {
+  padding: 100px;
+  .container {
+    .half {
+      border: 1px solid gray;
+      .talk-to-us1 {
+        background-color: rgba(0, 0, 0, 0.03);
+        text-align: center;
+        padding: 10px 0;
+      }
+      a {
+        display: inline-block;
+        margin-top: 50px;
+        width: 100%;
+        padding-left: 30px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .support {
+    padding: 100px 0;
+    .container {
+      .half {
+        padding: 0;
+        margin-bottom: 30px;
+        width: 48%;
+      }
+    }
+  }
+}
+@media (max-width: 900px) {
+  .support {
+    padding: 100px 0;
+    .container {
+      .half {
+        padding: 0;
+        margin-bottom: 30px;
+        width: 100%;
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .support {
+    padding: 100px 0;
+    .container {
+      .half {
+        padding: 0;
+        margin-bottom: 30px;
+        width: 100%;
+      }
+    }
+  }
+}
